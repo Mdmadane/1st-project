@@ -1,0 +1,43 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* nav related style */
+.nav-title{
+   color:black;
+    font-size: 30px;
+    font-weight: 600;}
+    .text-primary{
+        color:#FD6E0A;
+    }
+nav > ul{
+    display:flex;
+    align-items:center;
+}
+nav li{
+    list-style:none;
+    margin-right:50px;
+}
+nav a {
+    text-decoration:none;
+    color:#474747;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mary {
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border:0;
+    color:white;
+    font-weight: 900;
+    font-size:20px;
+    padding:15px 36px;
+}
